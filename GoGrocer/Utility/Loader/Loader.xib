@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Loader" customModule="wows" customModuleProvider="target">
+            <connections>
+                <outlet property="image" destination="y5z-wm-IKh" id="mID-Zb-7oh"/>
+                <outlet property="view" destination="iN0-l3-epB" id="hAs-y8-nZw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loader" translatesAutoresizingMaskIntoConstraints="NO" id="y5z-wm-IKh">
+                    <rect key="frame" x="162.5" y="308.5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="8J7-yh-pRx"/>
+                        <constraint firstAttribute="width" constant="50" id="Bgu-rF-ool"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="y5z-wm-IKh" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="SWl-ey-lYK"/>
+                <constraint firstItem="y5z-wm-IKh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ydZ-AJ-NOn"/>
+            </constraints>
+            <point key="canvasLocation" x="142" y="131"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loader" width="16" height="16"/>
+    </resources>
+</document>

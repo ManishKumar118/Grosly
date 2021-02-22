@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1030648511822-ea8ut6jvredkuf20qle240taq7t7pcir.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1030648511822-ea8ut6jvredkuf20qle240taq7t7pcir</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1030648511822-2gb9rt63iqcb379dehek6b1ir9v8174b.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDTyTZyna3Til12SYiWLGVnwbkOn2-RBRI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1030648511822</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.in.grosly</string>
+	<key>PROJECT_ID</key>
+	<string>grosly-fea7c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>grosly-fea7c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1030648511822:ios:3c9c8b673c8ac9b57fb21f</string>
+	<key>DATABASE_URL</key>
+	<string>https://grosly-fea7c.firebaseio.com</string>
+</dict>
+</plist>

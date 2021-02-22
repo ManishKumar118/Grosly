@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="110" id="KGk-i7-Jjw" customClass="ExpandTableViewCell" customModule="GoGrocer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WlS-RB-hz2" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="8" y="10" width="355" height="91"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashicon" translatesAutoresizingMaskIntoConstraints="NO" id="sMn-CB-baA">
+                                <rect key="frame" x="10" y="18" width="75" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="P6b-YL-lNO"/>
+                                    <constraint firstAttribute="height" constant="60" id="nVG-OZ-Okp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drinks" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="OY8-8Q-kyL">
+                                <rect key="frame" x="105" y="38.5" width="180" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="d8q-26-zC3">
+                                <rect key="frame" x="315" y="43" width="20" height="10.5"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="kXv-gG-6FJ"/>
+                                    <constraint firstAttribute="width" constant="20" id="qak-cz-4SG"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OY8-8Q-kyL" firstAttribute="leading" secondItem="sMn-CB-baA" secondAttribute="trailing" constant="20" id="5em-Ja-884"/>
+                            <constraint firstItem="sMn-CB-baA" firstAttribute="leading" secondItem="WlS-RB-hz2" secondAttribute="leading" constant="10" id="Nxe-xn-2L7"/>
+                            <constraint firstItem="d8q-26-zC3" firstAttribute="centerY" secondItem="OY8-8Q-kyL" secondAttribute="centerY" id="jo5-03-MYL"/>
+                            <constraint firstItem="OY8-8Q-kyL" firstAttribute="centerY" secondItem="sMn-CB-baA" secondAttribute="centerY" id="pNa-Ip-YpH"/>
+                            <constraint firstItem="d8q-26-zC3" firstAttribute="leading" secondItem="OY8-8Q-kyL" secondAttribute="trailing" constant="30" id="qfF-CC-GNu"/>
+                            <constraint firstAttribute="trailing" secondItem="d8q-26-zC3" secondAttribute="trailing" constant="20" id="th5-kw-udM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                <point key="value" x="0.0" y="0.80000000000000004"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sMn-CB-baA" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="5" id="2wP-zQ-2KR"/>
+                    <constraint firstAttribute="trailing" secondItem="WlS-RB-hz2" secondAttribute="trailing" constant="8" id="UDD-Gf-Hbu"/>
+                    <constraint firstAttribute="bottom" secondItem="WlS-RB-hz2" secondAttribute="bottom" constant="5" id="gJU-3i-QgA"/>
+                    <constraint firstItem="WlS-RB-hz2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="l2o-gL-u6G"/>
+                    <constraint firstItem="WlS-RB-hz2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="nGd-PS-bIE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgProduct" destination="sMn-CB-baA" id="CkM-0V-qd7"/>
+                <outlet property="lblCategoryName" destination="OY8-8Q-kyL" id="jYD-p8-UJk"/>
+                <outlet property="viewBottomCnst" destination="gJU-3i-QgA" id="aHQ-o9-5lH"/>
+                <outlet property="viewMain" destination="WlS-RB-hz2" id="Zwt-Hj-GLL"/>
+            </connections>
+            <point key="canvasLocation" x="174.63768115942031" y="66.964285714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.down" catalog="system" width="64" height="36"/>
+        <image name="splashicon" width="512" height="512"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_GoGrocer {
+  umbrella header "Pods-GoGrocer-umbrella.h"
+
+  export *
+  module * { export * }
+}
